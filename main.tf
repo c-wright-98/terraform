@@ -1,10 +1,10 @@
 provider "aws" {
-    access_key = "AKIBIWX7DKIDGMCHPG4A"
-    secret_key = "3gSerUT5rreC989K5l4f3WcGZ0yUNaltaw4C8r/1"
+    access_key = "AKIA2KLBBXFC4VYQHMNM"
+    secret_key = "e9wvLhRptFrj/oRnCYw72bD4MV6cRohKaEm27kq/"
     region = "eu-west-2"
 }
 
 resource "aws_instance" "example" {
-    ami = "ami-2757f631"
-    instance_type = "t2.micro"
+    ami = "ami-0eb260c4d5475b901"
+    instance_type = "t2.medium"
 }
